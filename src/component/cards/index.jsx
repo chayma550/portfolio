@@ -1,7 +1,6 @@
 import React from "react";
 import { LayoutGroup, motion } from "framer-motion";
 import Card from "../card";
-import Spinner from "react-bootstrap/Spinner";
 import cardsData from "../../data"; // adjust the path based on your file structure
 
 function Cards() {
