@@ -1,6 +1,5 @@
 import healthy from "./images/healthy.png"
 import nike from "./images/nike.png"
-import quiz from "./images/quiz.png"
 import fiver from "./images/fiver.png"
 import booking from "./images/booking.png"
 import netflix from "./images/netflix.png"
