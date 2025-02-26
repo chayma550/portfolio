@@ -7,6 +7,8 @@ import netflix from "./images/netflix.png"
 import blog from "./images/blog.png"
 import store from "./images/store.png"
 import realestate from "./images/realestate.png"
+import barista from "./images/barista.png"
+
 export const cardsData = [
   {
     acf: {
@@ -48,17 +50,19 @@ export const cardsData = [
   {
     acf: {
       id: 3,
-      title: "Nike Store",
-      description: "Nike Store is an online shopping platform.",
-      image: nike, 
-      css: true,
+      title: "Barista",
+      description: "Barista is a smart QR menu solution for coffee shops, making ordering faster and more convenient",
+      image: barista, 
+      css: false,
       bootstrap: false,
-      js_: true,
-      react: false,
-      html: true,
-      scss: false,
-      github: "https://github.com/chayma550/nike-sneakers",
-      live: "https://chayma550.github.io/nike-sneakers/",
+      js_: false,
+      react: true,
+      html: false,
+      scss: true,
+      firebase:true,
+      live: "https://coffee-shop-3d662.web.app/",
+
+
     },
   },
   {
@@ -79,17 +83,17 @@ export const cardsData = [
   {
     acf: {
       id: 5,
-      title: "Quiz App",
-      description: "Quiz App is a simple game with 30 questions.",
-      image: quiz, 
+      title: "Nike Store",
+      description: "Nike Store is an online shopping platform.",
+      image: nike, 
       css: true,
       bootstrap: false,
       js_: true,
-      react: true,
-      html: false,
+      react: false,
+      html: true,
       scss: false,
-      github: "https://github.com/chayma550/quiz-app",
-      live: "https://chayma550.github.io/quiz-app/",
+      github: "https://github.com/chayma550/nike-sneakers",
+      live: "https://chayma550.github.io/nike-sneakers/",
     },
   },
   

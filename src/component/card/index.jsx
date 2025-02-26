@@ -9,6 +9,8 @@ import htmll from "../../images/html.png";
 import mongodb from "../../images/mongo.png";
 import node from "../../images/node.png"
 import express from "../../images/express.png"
+import fire from "../../images/firebase.svg"
+
 
 
 
@@ -28,7 +30,8 @@ function Card({ card: { acf } }) {
     live,
     mongoose,
     nodejs,
-    expresss
+    expresss,
+    firebase
   } = acf || {}; // Destructure acf properties
 
   const [isOpen, setIsOpen] = useState(false);
@@ -156,6 +159,11 @@ function Card({ card: { acf } }) {
                  {expresss && (
                   <motion.div style={{ width: "30px" }}>
                     <img src={express} alt="Express" className="w-100 h-100" />
+                  </motion.div>
+                )}
+                {firebase && (
+                  <motion.div style={{ width: "30px" }}>
+                    <img src={fire} alt="Firebase" className="w-100 h-100" />
                   </motion.div>
                 )}
 
